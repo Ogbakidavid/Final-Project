@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.blink-dot {
+    animation: blink 1s infinite;
+}
+
+.slide-in {
+    animation: slideIn 0.3s ease forwards;
+    will-change: transform;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.7s ease-out forwards;
+}
+
+
+html, body {
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}    
+
+.font-space {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.scrollable {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.scrollable::-webkit-scrollbar {
+    width: 18px;
+}
+
+.scrollable::-webkit-scrollbar-track {
+    background: #f4f3de; 
+}
+
+/* Scrollbar Thumb */
+.scrollable::-webkit-scrollbar-thumb {
+    background-color: #99F7FF; 
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-scroll-left {
+    animation: scroll-left 15s linear infinite;
+}
+
+.animate-scroll-left:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-scroll {
+    animation: scroll 20s linear infinite;
+}
+
+.animate-scroll:hover {
+    animation-play-state: paused;
+}
+
+
