@@ -42,7 +42,7 @@ export default function Home() {
     }, [currentCharIndex, currentTextIndex, isDeleting, typeText, isPaused, texts]);
 
     return (
-        <div className='relative overflow-hidden animate-fade-in-up'>
+        <div className='relative overflow-hidden'>
             <div className="absolute inset-0 -z-20" />
             <ParticlesBackground />
             <Navbar />
