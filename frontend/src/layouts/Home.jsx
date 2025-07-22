@@ -53,6 +53,7 @@ export default function Home() {
                             src={Portfolio}
                             alt="portfolio"
                             className='rounded-full object-cover w-[400px]'
+                            loading='lazy'
                         />
                     </div>
                     <h1 className='text-5xl uppercase font-space'>David Ogbaki</h1>

@@ -44,6 +44,7 @@ export default function Blog() {
                                 src={`/${coverImage}`} 
                                 alt={title}
                                 className="w-full h-full object-cover"
+                                loading="lazy"
                             />
                         </div>
                         <div className="p-6 grid grid-cols-1 gap-2">

@@ -39,6 +39,7 @@ export default function About() {
                                     src={AboutImage}
                                     alt="about image"
                                     className="w-full h-auto object-contain"
+                                    loading="lazy"
                                 />
                             </div>
                             <div className="absolute top-7 left-7 w-full h-full border-8 border-white z-0"></div>

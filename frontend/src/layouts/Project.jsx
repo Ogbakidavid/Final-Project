@@ -53,6 +53,7 @@ export default function Project() {
                 src={`/${image}`}
                 alt={title}
                 className="max-w-[500px] max-h-[300px] w-full h-full object-cover object-center rounded-md"
+                loading="lazy"
               />
             </CardContent>
             <CardHeader>
