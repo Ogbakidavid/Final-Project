@@ -6,6 +6,7 @@ export default function Education() {
             period: "Feb 2025 - july 2025",
             title: "Software Development Course at Power Learn Project (PLP)",
             view: "View",
+            link: "https://drive.google.com/file/d/1JMWS_JJDNoIqqKKgyNQdfMTK-PJDGbfj/view?usp=sharing",
         },
         {
             period: "April 2024 - July 2024",
