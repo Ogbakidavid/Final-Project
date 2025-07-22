@@ -1,5 +1,5 @@
 import Navbar from './Navbar'
-import Portfolio from "/Avatar.png";
+import Portfolio from "/homeImage.png";
 import ParticlesBackground from './ParticlesBackground';
 import { Twitter, Github, Linkedin, Mail } from 'lucide-react';
 import { useState, useEffect } from 'react';
@@ -46,7 +46,7 @@ export default function Home() {
             <div className="absolute inset-0 -z-20" />
             <ParticlesBackground />
             <Navbar />
-            <section className=" relative z-10 h-screen flex items-center justify-center w-full container mx-auto px-3">
+            <section className=" relative z-10 h-screen flex items-center justify-center w-full container mx-auto px-3 animate-fade-in-up">
                 <div className='text-white text-center grid grid-cols-1 gap-y-3'>
                     <div className='relative mx-auto rounded-full p-[15px] border-[10px] border-primary'>
                         <img

@@ -1,4 +1,4 @@
-import AboutImage from "/avatar.png"
+import AboutImage from "/aboutImage.png"
 import { Button } from "@/components/ui/button"
 import Skills from "../layouts/Skills";
 import Project from "./Project";
