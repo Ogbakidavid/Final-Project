@@ -114,6 +114,14 @@ export default function Navbar() {
                         <a href="#about" onClick={(e) => handleNavClick(e, "#about")}>About</a>
                         <a href="#project" onClick={(e) => handleNavClick(e, "#project")}>Project</a>
                         <a href="#blog" onClick={(e) => handleNavClick(e, "#blog")}>Blog</a>
+                        <a
+                        href="https://drive.google.com/file/d/1jpjWSrXgHZhPoB7L3mYsw6PAfA0attGH/view?usp=sharing"
+                        target="_blank"
+                    >
+                        <Button className="bg-transparent border-2 font-bold border-primary" size="lg">
+                            Resume
+                        </Button>
+                    </a>
 
                         <hr className="my-4 border-gray-600" />
                     </div>
